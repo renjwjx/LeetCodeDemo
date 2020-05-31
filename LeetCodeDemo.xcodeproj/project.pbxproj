@@ -14,6 +14,9 @@
 		EE492B56248299B300621D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE492B55248299B300621D63 /* Assets.xcassets */; };
 		EE492B59248299B300621D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE492B57248299B300621D63 /* LaunchScreen.storyboard */; };
 		EE492B5C248299B300621D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE492B5B248299B300621D63 /* main.m */; };
+		EE492B6424829BFB00621D63 /* LCTitleListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE492B6324829BFB00621D63 /* LCTitleListTableViewController.m */; };
+		EE492B6A2482A0EF00621D63 /* LCTitleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE492B692482A0EF00621D63 /* LCTitleDetailViewController.m */; };
+		EE492B6D2483575700621D63 /* LCDataModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EE492B6C2483575700621D63 /* LCDataModal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		EE492B58248299B300621D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE492B5A248299B300621D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE492B5B248299B300621D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE492B6224829BFB00621D63 /* LCTitleListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTitleListTableViewController.h; sourceTree = "<group>"; };
+		EE492B6324829BFB00621D63 /* LCTitleListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTitleListTableViewController.m; sourceTree = "<group>"; };
+		EE492B682482A0EF00621D63 /* LCTitleDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTitleDetailViewController.h; sourceTree = "<group>"; };
+		EE492B692482A0EF00621D63 /* LCTitleDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTitleDetailViewController.m; sourceTree = "<group>"; };
+		EE492B6B2483575700621D63 /* LCDataModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCDataModal.h; sourceTree = "<group>"; };
+		EE492B6C2483575700621D63 /* LCDataModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCDataModal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +76,13 @@
 				EE492B4D248299B000621D63 /* SceneDelegate.m */,
 				EE492B4F248299B000621D63 /* ViewController.h */,
 				EE492B50248299B000621D63 /* ViewController.m */,
+				EE492B682482A0EF00621D63 /* LCTitleDetailViewController.h */,
+				EE492B692482A0EF00621D63 /* LCTitleDetailViewController.m */,
+				EE492B6B2483575700621D63 /* LCDataModal.h */,
+				EE492B6C2483575700621D63 /* LCDataModal.m */,
 				EE492B52248299B000621D63 /* Main.storyboard */,
+				EE492B6224829BFB00621D63 /* LCTitleListTableViewController.h */,
+				EE492B6324829BFB00621D63 /* LCTitleListTableViewController.m */,
 				EE492B55248299B300621D63 /* Assets.xcassets */,
 				EE492B57248299B300621D63 /* LaunchScreen.storyboard */,
 				EE492B5A248299B300621D63 /* Info.plist */,
@@ -147,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE492B51248299B000621D63 /* ViewController.m in Sources */,
+				EE492B6424829BFB00621D63 /* LCTitleListTableViewController.m in Sources */,
 				EE492B4B248299B000621D63 /* AppDelegate.m in Sources */,
+				EE492B6A2482A0EF00621D63 /* LCTitleDetailViewController.m in Sources */,
 				EE492B5C248299B300621D63 /* main.m in Sources */,
+				EE492B6D2483575700621D63 /* LCDataModal.m in Sources */,
 				EE492B4E248299B000621D63 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
